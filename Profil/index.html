@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Profil utilisateur</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body id="app">
+    <h1 class="text-center">Profil utilisateur (VueJS)</h1>
+    <div class="container">
+        <div>
+            <img v-bind:src="user.image" alt="Mon image">
+            <div class="card-body">
+                <h3>{{user.name}}</h3>
+                <input type="text" name="" :value="user.name">
+                <p>{{user.age}} ans</p>
+                <p>age + 10 : {{agePlusDix()}} ans</p>
+                <p>Mon chiffre fétiche : {{randomNumber}}</p>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+</body>
+</html>

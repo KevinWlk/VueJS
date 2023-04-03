@@ -1,0 +1,12 @@
+.maClasseHello {
+    background-color: mediumslateblue;
+    font-size: xx-large;
+    border: solid rgb(0, 255, 76) 3px;
+    color: white;
+
+}
+.maClasseWorld {
+    background-color: chartreuse;
+    font-size: xx-large;
+    border: solid red 5px;
+}
